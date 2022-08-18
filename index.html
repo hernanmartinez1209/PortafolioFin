@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hernan Martinez | Frontend</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="inner">
+      <div class="brand">
+        <a href="index.html">
+          <!-- <img src="img/logo.png" alt=""> -->
+          <h2 class="logo">HMhernanMartinez</h2>
+        </a>
+      </div>
+      <nav id="nav" class="nav">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link active-link" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-close" id="navClose">
+          <i class='bx bx-x'></i>
+        </div>
+      </nav>
+      <div class="actions">
+        <!-- Theme change button -->
+        <div id="btnDarkMode" class="btn-theme">
+          <i class='bx bx-moon'></i>
+        </div>
+
+        <div id="btnMenu" class="btn-menu">
+          <i class='bx bx-menu'></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="wrapper">
+    <section class="hero" id="hero">
+      <div class="container grid">
+        <div class="content-img">
+          <img  src="assets/img/a10ee8e1-c628-40be-bc3b-5192920df707.jpg" alt="dev"  >
+        </div>
+        <div class="content-text">
+          <h1 class="title">
+            <span class="text-primary">Hernan</span>
+            <span class="text-secondary">Martinez</span>
+          </h1>
+          <p class="subtitle">
+            Frontent
+          </p>
+          <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, quasi repellat eos cum
+            nihil officia ullam, temporibus fugit alias id itaque nesciunt repudiandae! Sunt, numquam esse quia commodi
+            pariatur facilis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="container_flex2">
+       <img src="./assets/iconos2/130px-HTML5_logo_and_wordmark.png" alt="html">
+       <img src="./assets/iconos2/120px-CSS3_logo_and_wordmark.png" alt="css">
+
+       <img class="reac" src="./assets/iconos2/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac24ced243.4761515415233628528472.jpg" alt="react">
+      <img src="./assets/iconos2/Unofficial_JavaScript_logo_2.png" alt="js">
+      </div>
+    </section>
+
+    <section class="section bg-color" id="works">
+      <h2 class="section-title">Works</h2>
+      <div class="container_flex_Workd">
+        <img src="./assets/Proyectos/image 4.png" alt="proyec1">
+        <img src="./assets/Proyectos/Rectangle 58.png" alt="proyec2">
+        <img src="./assets/Proyectos/Rectangle 59.png" alt="proyec3">
+        <img src="./assets/Proyectos/Rectangle 60.png" alt="proyec4">
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="container grid col-span-2 flex-center">
+        <form class="form-container" id="formContainer">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="7" required></textarea>
+          </div>
+          <div class="form-group">
+            <div class="terms">
+              <input type="checkbox" id="terms">
+              <label for="terms">I accept the <a href="#">terms and conditions</a></label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-form">Send</button>
+        </form>
+        <div class="map-container">
+         
+          <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d287.6105959635333!2d-87.15275266358275!3d14.100096014309619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8f6fa344b035de31%3A0x956cd7e22ecb91e3!2sTegucigalpa!3m2!1d14.1000192!2d-87.15274699999999!5e0!3m2!1ses!2shn!4v1660711780878!5m2!1ses!2shn"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="copy">&copy; 2022 Hernan Martinez</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>
